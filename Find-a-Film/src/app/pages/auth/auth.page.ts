@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { log } from 'console';
 
 @Component({
   selector: 'app-auth',
@@ -16,6 +17,11 @@ export class AuthPage implements OnInit {
   constructor() { }
 
   ngOnInit() {
+  }
+
+  submit() {
+    console.log(this.form.value);
+    
   }
 
 }
