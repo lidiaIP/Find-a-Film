@@ -24,7 +24,7 @@ export class AuthPage implements OnInit {
     if (this.form.valid) {
       this.firebaseSvc.signIn(this.form.value as User).then(res => {
         console.log(res);
-        
+      
         
       })
     }
