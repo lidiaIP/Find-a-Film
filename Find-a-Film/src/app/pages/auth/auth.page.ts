@@ -32,6 +32,14 @@ export class AuthPage implements OnInit {
         
       }).catch(error => {
         console.log(error);
+
+        this.utilsSvc.presentToast({
+          message: error.message,
+          duration: 25000,
+          color: 'tertiary',
+          position: 'middle',
+          icon: 'alert-circle-outline'
+        })
           
       }).finally(() => {
         loading.dismiss();
