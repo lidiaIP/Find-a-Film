@@ -11,8 +11,13 @@
     type="email"
     label="Correo"
     ></app-custom-input> 
-  {{form.value-email}}
-   <!--<app-custom-input icon="lock-closed-outline"></app-custom-input>--> 
+   <app-custom-input
+   [control]="form.controls.password" 
+   icon="lock-closed-outline"
+   type="password"
+   label="Contraseña"
+   
+   ></app-custom-input>
   </form>
 </ion-content>
  
