@@ -1,5 +1,5 @@
 <ion-item class="custom-input" lines="none">
-  <ion-icon color="tertiary" *ngif="icon" slot="start" [name]="icon"></ion-icon>
+  <ion-icon color="tertiary" *ngIf="icon" slot="start" [name]="icon"></ion-icon>
   
   
   <ion-input
@@ -9,7 +9,7 @@
   [formControl]="control"
   label-placement="floating"
   ></ion-input>
-<ion-button *ngif="isPassword" (click)="showOrHidePassword()" slot="end" fill="clear" shape="round">
+<ion-button *ngIf="isPassword" (click)="showOrHidePassword()" slot="end" fill="clear" shape="round">
   <ion-icon slot="icon-only" [name]="hide ? 'eye-outline' :  'eye-off-outline'"></ion-icon>
 </ion-button>
 </ion-item>
