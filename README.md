@@ -2,8 +2,11 @@
 
 ##### INTEGRANTES
 Kathia Guadalupe Rodríguez García
+
 Johana Michelle Wisar Enriquez
+
 Lidia Guadalupe Ibarra Pérez
+
 David Rey Gómez Garza
 
 ##### - OBJETIVO
