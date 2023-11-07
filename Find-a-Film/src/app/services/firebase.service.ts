@@ -9,7 +9,7 @@ import { User } from '../models/user.model';
 })
 export class FirebaseService {
 
-  auth= inject(AngularFireAuth);
+  auth = inject(AngularFireAuth);
 
 // ==== Autenticacion ====  //
 
